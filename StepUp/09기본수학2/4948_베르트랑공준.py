@@ -37,7 +37,7 @@ ex)
 
 
 #code
-def prime_list(n):  #에라토스테네스의 채
+def prime_list(n):  #소수찾기-에라토스테네스의 채
   sieve = [True]*n
 
   m=int(n**0.5)
